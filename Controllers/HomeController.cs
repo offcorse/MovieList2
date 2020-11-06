@@ -22,7 +22,7 @@ namespace MovieList.Controllers
         public IActionResult Index()
         {
             var movies = context.Movies
-                .Include(m => m.Genre)
+                .Include(m => m.Genre)  //added 'include'
                 .OrderBy(m => m.Name)
                 .ToList();
             return View(movies);

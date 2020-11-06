@@ -25,7 +25,7 @@ namespace MovieList
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRouting(options => {
+            services.AddRouting(options => {  //added routing options for lowercase and trailing slash
                 options.LowercaseUrls = true;
                 options.AppendTrailingSlash = true;
             });
@@ -61,7 +61,7 @@ namespace MovieList
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}");  //added slug
             });
         }
     }

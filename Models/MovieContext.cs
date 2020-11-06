@@ -20,7 +20,7 @@ namespace MovieList.Models
                     Name = "Casablanca",
                     Year = 1943,
                     Rating = 5,
-                    GenreId = "D"
+                    GenreId = "D"  //added GenreId to each movie, here and below
                 },
                 new Movie
                 {
@@ -39,7 +39,7 @@ namespace MovieList.Models
                     GenreId = "R"
                 }
             );
-            modelBuilder.Entity<Genre>().HasData(
+            modelBuilder.Entity<Genre>().HasData(                   //added table Genre and data
                 new Genre { GenreId = "A", Name = "Action" },
                 new Genre { GenreId = "C", Name = "Comedy" },
                 new Genre { GenreId = "D", Name = "Drama" },
