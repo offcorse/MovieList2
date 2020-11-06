@@ -66,3 +66,5 @@ C:\Murach\student_download\ex_starts\Ch04Ex1MovieList\MovieList\obj\Release\netc
 C:\Murach\student_download\ex_starts\Ch04Ex1MovieList\MovieList\obj\Release\netcoreapp3.1\MovieList.dll
 C:\Murach\student_download\ex_starts\Ch04Ex1MovieList\MovieList\obj\Release\netcoreapp3.1\MovieList.pdb
 C:\Murach\student_download\ex_starts\Ch04Ex1MovieList\MovieList\obj\Release\netcoreapp3.1\MovieList.genruntimeconfig.cache
+C:\Murach\student_download\ex_starts\Ch04Ex1MovieList\MovieList\obj\Release\netcoreapp3.1\Razor\Views\Movie\Delete.cshtml.g.cs
+C:\Murach\student_download\ex_starts\Ch04Ex1MovieList\MovieList\obj\Release\netcoreapp3.1\Razor\Views\Movie\Edit.cshtml.g.cs
